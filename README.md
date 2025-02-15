@@ -8,7 +8,9 @@ Start Apache and MySQL from Xampp control Panel.
 In your browser opean "http://localhost/phpmyadmin/".
 To create batabase copy this query and paste it in phpmyadmin->sql: 
 "CREATE DATABASE secure_vault;"
-then,
+
+USE secure_vault;
+
 "CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(255) UNIQUE NOT NULL,
